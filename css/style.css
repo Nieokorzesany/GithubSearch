@@ -1,0 +1,58 @@
+body {
+  background-color: #aeaeb8;
+}
+
+body #root {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+body #root .container {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #d1df9e;
+  width: 800px;
+}
+
+body #root .container .user {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 20px 0;
+}
+
+body #root .container .user img {
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+body #root .container .user a {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+body #root .container .engine {
+  color: #000000;
+}
+
+body #root .container .form .label {
+  padding-right: 10px;
+  color: #000;
+}
+
+body #root .container .form .input {
+  border-radius: 4px;
+  border: 3px solid #000000;
+  background-color: #c0ebf7e1;
+}
+
+body #root .container .userList {
+  color: #000000;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
